@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import FileList from './FileList';
+import FileList from './FileList.jsx';
 
 function Chat({ token, onLogout }) {
   const { lang } = useParams();

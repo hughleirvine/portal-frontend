@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
-import Login from './Login';
-import Chat from './Chat';
+import Login from './Login.jsx';
+import Chat from './Chat.jsx';
 
 function App() {
   const [token, setToken] = useState(null);
